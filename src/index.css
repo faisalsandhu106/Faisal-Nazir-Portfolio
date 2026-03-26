@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: font;
+  src: url(/public/fronts/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navLink {
+  position: relative;
+  cursor: pointer;
+  transition: 0.2s all ease;
+}
+
+.navLink::before {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  border-radius: 19%;
+  background-color: #FE4300;
+  transition: width 0.3s ease;
+  z-index: 0;
+}
+
+.navLink:hover::before {
+  width: 100%;
+}
+
+.navLink:hover {
+  color: #FE6C38;
+}
+
+button {
+  position: relative;
+  z-index: 2;
+  border: 1px solid #FE4300;
+  transition: height 0.3s ease;
+  overflow: hidden;
+}
+
+button:hover {
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 0%;
+  background-color: #FE4300;
+  transition: height 0.3s ease;
+}
+
+button:hover::before {
+  height: 100%;
+}
+
+.box-animate {
+  transform: translateY(1%);
+  transition: 0.25s all ease;
+}
+
+.box-animate:hover {
+  transform: translateY(0%);
+  box-shadow: 1px 2px 15px 3px rgba(208, 207, 207, 0.598);
+}
+
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0.0deg)
+  }
+
+  10% {
+    transform: rotate(14.0deg)
+  }
+
+  20% {
+    transform: rotate(-8.0deg)
+  }
+
+  30% {
+    transform: rotate(14.0deg)
+  }
+
+  40% {
+    transform: rotate(-4.0deg)
+  }
+
+  50% {
+    transform: rotate(10.0deg)
+  }
+
+  60% {
+    transform: rotate(0.0deg)
+  }
+
+  100% {
+    transform: rotate(0.0deg)
+  }
+}
