@@ -58,11 +58,11 @@ const Home = () => {
                         Highly motivated React Frontend Developer with 1+ year of experience in building scalable and efficient web applications. Proficient in React js, and HTML, CSS, with a strong passion for delivering high-quality solutions.
                     </p>
                     <div className="flex items-center mt-6">
-                        <a>
+                       /* <a>
                             <button className='px-7 py-4 rounded-full text-xl overflow-hidden'>
                                 Download Resume
                             </button>
-                        </a>
+                        </a> */
                     </div>
                 </div>
                 <figure className="flex items-center justify-center w-fit md:w-[400px] xl:w-[500px] rounded-md overflow-hidden">
