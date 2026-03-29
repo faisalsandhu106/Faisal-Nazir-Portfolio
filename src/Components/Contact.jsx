@@ -41,8 +41,8 @@ const contactInfo = [
     },
     {
         type: "phone",
-        label: "+92 304 6594966",
-        link: "tel:+9230465948966"
+        label: "+92 3046594966",
+        link: "tel:+923046594966"
     }
 ]
 
