@@ -11,9 +11,9 @@ const Home = () => {
         },
         {
             type: "phone",
-            label: "+92 304 65948966",
+            label: "+92 3046594966",
             icon: "/icon/call-icon.svg",
-            link: "tel:+9230465948966"
+            link: "tel:+923046594966"
         },
         // {
         //   type: "website",
