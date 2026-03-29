@@ -10,7 +10,7 @@ const contactItems = [
     },
     {
         type: "phone",
-        label: "+92 304 65948966",
+        label: "+92 3046594966",
         icon: "/images/icon/call-icon.svg",
         link: "tel:+923046594966"
     },
