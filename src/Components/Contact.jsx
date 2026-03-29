@@ -12,7 +12,7 @@ const contactItems = [
         type: "phone",
         label: "+92 304 65948966",
         icon: "/images/icon/call-icon.svg",
-        link: "tel:+9230465948966"
+        link: "tel:+923046594966"
     },
     // {
     //   type: "website",
