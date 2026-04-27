@@ -15,7 +15,7 @@ const Project = () => {
             image: "/image/{5065546E-06B5-46D0-9C98-5DE9853DE885}.png",
             title: "Too Good Co. Website Design",
             client: "Michael Carter",
-            slug: "https://two-good-col.vercel.app/"
+            slug: "https://two-good-coo.vercel.app/"
         },
         {
             image: "/image/chenab-college.png",
